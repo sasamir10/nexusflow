@@ -1,10 +1,10 @@
+import Header from "./components/Header";
+
 function App() {
     return (
-        <>
-            <section className="flex justify-center">
-                Welcome to NexusFlow Project
-            </section>
-        </>
+        <div className="bg-black text-[#ededed] font-sans antialiased selection:bg-white selection:text-black overflow-x-hidden">
+            <Header />
+        </div>
     );
 }
 
