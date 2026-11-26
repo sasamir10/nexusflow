@@ -1,4 +1,5 @@
 import CTABanner from "./components/CTABanner";
+import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -9,6 +10,7 @@ function App() {
             <Header />
             <Hero />
 
+            <FAQ />
             <CTABanner />
             <Footer />
         </div>
