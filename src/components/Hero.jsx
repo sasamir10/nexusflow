@@ -15,7 +15,7 @@ export default function Hero() {
             <div className="absolute inset-0 vercel-grid opacity-30 mask-[radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] pointer-events-none"></div>
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-                Announcement Pill Badge
+                {/* Announcement Pill Badge */}
                 <div className="flex justify-center">
                     <a
                         href="#features"
@@ -52,7 +52,7 @@ export default function Hero() {
 
                     {/* CLI Command & Actions Bar  */}
                     <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-3 max-w-md mx-auto">
-                        Copy CLI Box
+                        {/* Copy CLI Box */}
                         <div className="w-full sm:w-auto flex-1 flex items-center justify-between gap-3 px-3.5 py-2.5 bg-geist-surface border border-neutral-800 rounded-lg text-xs font-mono text-neutral-300 shadow-inner">
                             <div className="flex items-center gap-2 overflow-hidden">
                                 <span className="text-neutral-500 select-none">
@@ -115,7 +115,7 @@ export default function Hero() {
                 {/* Vercel-Style Terminal & Deployment Preview Mockup  */}
                 <div className="mt-14 max-w-4xl mx-auto">
                     <div className="rounded-xl border border-neutral-800 bg-geist-surface shadow-2xl overflow-hidden font-mono">
-                        Terminal Header Bar
+                        {/* Terminal Header Bar */}
                         <div className="flex items-center justify-between px-4 py-3 border-b border-neutral-800 bg-[#050505] text-xs text-neutral-400">
                             <div className="flex items-center gap-2">
                                 <span className="w-2.5 h-2.5 rounded-full bg-neutral-700"></span>
