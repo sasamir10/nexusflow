@@ -3,6 +3,7 @@ import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import PricingCard from "./components/PricingCard";
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
             <Header />
             <Hero />
 
+            <PricingCard />
             <FAQ />
             <CTABanner />
             <Footer />
