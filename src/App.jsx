@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import PricingCard from "./components/PricingCard";
+import Testimonials from "./components/Testimonials";
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <Header />
             <Hero />
 
+            <Testimonials />
             <PricingCard />
             <FAQ />
             <CTABanner />
