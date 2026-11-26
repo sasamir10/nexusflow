@@ -1,9 +1,11 @@
 import CTABanner from "./components/CTABanner";
 import FAQ from "./components/FAQ";
+import Features from "./components/Features";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import PricingCard from "./components/PricingCard";
+import Stats from "./components/Stats";
 import Testimonials from "./components/Testimonials";
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
             <Header />
             <Hero />
 
+            <Features />
+            <Stats />
             <Testimonials />
             <PricingCard />
             <FAQ />
